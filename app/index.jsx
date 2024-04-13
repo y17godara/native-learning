@@ -7,7 +7,7 @@ const App = () => {
     <View style={styles.container}>
       <Text>index.jsx</Text>
 
-      <Link href="/profile" style={styles.link}>Go to Profile</Link>
+      <Link href="/profile" className="text-blue-500 bg-slate-300 p-2 border rounded-lg border-zinc-300">Go to Profile</Link>
 
       <StatusBar style="auto" />
     </View>
