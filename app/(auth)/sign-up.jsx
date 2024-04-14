@@ -1,6 +1,6 @@
-import { Text, View } from "react-native";
-import { StatusBar } from "expo-status-bar";
-import { Link } from "expo-router";
+import { Text, View } from 'react-native'
+import { StatusBar } from 'expo-status-bar'
+import { Link } from 'expo-router'
 
 const SignUp = () => {
   return (
@@ -8,13 +8,12 @@ const SignUp = () => {
       <Text>SignUp</Text>
       <Link
         href="/sign-in"
-        className="p-2 text-blue-500 border rounded-lg bg-slate-300 border-zinc-300 font-pbold"
-      >
+        className="p-2 text-blue-500 border rounded-lg bg-slate-300 border-zinc-300 font-pbold">
         Go to Sign In
       </Link>
       <StatusBar style="auto" />
     </View>
-  );
-};
+  )
+}
 
-export default SignUp;
+export default SignUp

@@ -4,18 +4,13 @@ import { Link } from 'expo-router'
 
 const Profile = () => {
   return (
-    <View      
-      className="items-center justify-center w-full h-full text-center"
-    >
-      <Text>
-        Profile
-      </Text>
+    <View className="items-center justify-center w-full h-full text-center">
+      <Text>Profile</Text>
       <Link
-          href="/sign-up"
-          className="p-2 text-blue-500 border rounded-lg bg-slate-300 border-zinc-300 font-pbold"
-        >
-          Go to Sign Up
-        </Link>
+        href="/sign-up"
+        className="p-2 text-blue-500 border rounded-lg bg-slate-300 border-zinc-300 font-pbold">
+        Go to Sign Up
+      </Link>
       <StatusBar style="auto" />
     </View>
   )
